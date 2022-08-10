@@ -2,7 +2,7 @@ describe("A1.by testing", () => {
     beforeEach("Open main page before each test", () => {
         cy.visit("/");
     });
-    it.only("Check input field: positive", () => {
+    it("Check input field: positive", () => {
         cy.SearchProductInInputField("iphone 13", "Смотреть все найденное");
     });
     it("Check empty cart: positive", () => {

@@ -1,9 +1,9 @@
-import { inputSelectors } from "../fixtures/inputSelectors";
-import { cartSelectors } from "../fixtures/selectors/cartSelectors";
-import { tariffsSelectors } from "../fixtures/selectors/tariffsSelectors";
-import { balanceSelectors } from "../fixtures/selectors/balanceSelectors";
-import { userIconSelector } from "../fixtures/selectors/userIconSelector";
-import { accountSelectors } from "../fixtures/selectors/accountSelectors";
+import { inputSelectors } from "../../selectors/inputSelectors";
+import { cartSelectors } from "../../selectors/cartSelectors";
+import { tariffsSelectors } from "../../selectors/tariffsSelectors";
+import { balanceSelectors } from "../../selectors/balanceSelectors";
+import { userIconSelector } from "../../selectors/userIconSelector";
+import { accountSelectors } from "../../selectors/accountSelectors";
 
 const { searchInput, inputField, resultOfSearch, resultButton } = inputSelectors;
 const { cartButton, textCart, linkToStore } = cartSelectors;
