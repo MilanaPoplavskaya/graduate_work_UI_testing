@@ -11,5 +11,9 @@ declare namespace Cypress {
         TopUpBalance(): void;
 
         CreatePersonalAccount(communication: string): void;
+
+        InstallMobileApp(): void;
+
+        AskQuestions(askAQuestion: string, coverageQuestions: string): void;
     }
 }

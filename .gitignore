@@ -1,3 +1,5 @@
 .idea/
 node_modules/
-.prettierrc
+allure-results/
+allure-report/
+videos/
